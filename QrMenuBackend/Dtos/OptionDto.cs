@@ -1,4 +1,6 @@
 ﻿
+using System.Text.Json.Serialization;
+
 namespace QrMenuBackend.Dtos
 {
     public class OptionDto
@@ -8,6 +10,7 @@ namespace QrMenuBackend.Dtos
         public string? Name_Ka { get; set; }
         public int Product_Id { get; set; }
 
+        [JsonIgnore]
         public ProductDto? Product { get; set; }
 
         public ICollection<OptionValueDto>? OptionValues { get; set; }

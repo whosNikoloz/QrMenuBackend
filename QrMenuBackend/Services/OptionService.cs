@@ -17,5 +17,25 @@ namespace QrMenuBackend.Services
         {
             return _optionRepository.CreateOptionAsync(optioncreateDto);
         }
+
+        public Task DeleteOptionAsync(int optionId)
+        {
+            return _optionRepository.DeleteOptionAsync(optionId);
+        }
+
+        public Task<List<OptionDto>> GetAllOptionsAsync()
+        {
+            return _optionRepository.GetAllOptionsAsync();
+        }
+
+        public Task<OptionDto> GetOptionByIdAsync(int optionId)
+        {
+            return _optionRepository.GetOptionByIdAsync(optionId);
+        }
+
+        public Task<OptionDto> UpdateOptionAsync(int optionId, OptionCreateDto optionDto)
+        {
+            return _optionRepository.UpdateOptionAsync(optionId, optionDto);
+        }
     }
 }

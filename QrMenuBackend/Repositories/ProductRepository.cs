@@ -70,11 +70,48 @@ namespace QrMenuBackend.Repositories
             return Task.FromResult(productDto);
         }
 
-        public Task<ProductDto> GetProductsAndOptionsById(int productId)
+        public async Task<ProductDto> GetProductsAndOptionsById(int productId)
         {
-            var product = _dbContext.Products.Include(p => p.Options).FirstOrDefault(p => p.Id == productId);
-            throw new NotImplementedException();
+            var product = await _dbContext.Products.Include(p => p.Options).FirstOrDefaultAsync(p => p.Id == productId);
+            if (product == null)
+            {
+                throw new KeyNotFoundException("Product not found");
+            }
+            var productDto = _mapper.Map<Product, ProductDto>(product);
+            return productDto;
         }
+
+        public async Task<ProductDto> GetProductWithOptionsAndValuesById(int productId)
+        {
+            // Retrieve the product with options and option values
+            var product = await _dbContext.Products
+                .Include(p => p.Options)  // Include the related Options
+                    .ThenInclude(o => o.OptionValues)  // Include the OptionValues for each Option
+                .FirstOrDefaultAsync(p => p.Id == productId);
+
+            // If the product with the specified ID is not found, throw an exception
+            if (product == null)
+            {
+                throw new KeyNotFoundException("Product not found");
+            }
+
+            // Map the retrieved 'product' entity to a 'ProductDto'
+            var productDto = _mapper.Map<Product, ProductDto>(product);
+
+            // Map Options and their OptionValues to DTOs (if Options collection is not null)
+            if (product.Options != null)
+            {
+                productDto.Options = _mapper.Map<List<OptionDto>>(product.Options);
+            }
+            else
+            {
+                productDto.Options = new List<OptionDto>(); // Initialize as empty list if Options is null
+            }
+
+            // Return the mapped 'ProductDto'
+            return productDto;
+        }
+
 
         public async Task<ProductDto> UpdateProductAsync(int productId, ProductCreateDto productcreateDto)
         {

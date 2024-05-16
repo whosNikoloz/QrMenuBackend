@@ -112,5 +112,17 @@ namespace QrMenuBackend.Controllers
 
             return Ok(product); // Return status code 200 (OK) with product details
         }
+        [HttpGet("{id}/OptionsAndValues")]
+        public async Task<IActionResult> GetProductOptionsAndValues(int id)
+        {
+            var product = await _productService.GetProductWithOptionsAndValuesById(id);
+
+            if (product == null)
+            {
+                return NotFound(); // Return status code 404 (Not Found)
+            }
+
+            return Ok(product); // Return status code 200 (OK) with product details
+        }
     }
 }

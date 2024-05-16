@@ -38,6 +38,11 @@ namespace QrMenuBackend.Services
             return await _productRepository.GetProductsAndOptionsById(productId);
         }
 
+        public Task<ProductDto> GetProductWithOptionsAndValuesById(int productId)
+        {
+            return _productRepository.GetProductWithOptionsAndValuesById(productId);
+        }
+
         public async Task<ProductDto> UpdateProductAsync(int productId, ProductCreateDto productDto)
         {
             return await _productRepository.UpdateProductAsync(productId, productDto);

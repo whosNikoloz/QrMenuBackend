@@ -11,5 +11,6 @@ namespace QrMenuBackend.Services
         Task<ProductDto> UpdateProductAsync(int productId, ProductCreateDto productDto);
         Task DeleteProductAsync(int productId);
         Task<ProductDto> GetProductsAndOptionsById(int productId);
+        Task<ProductDto> GetProductWithOptionsAndValuesById(int productId);
     }
 }

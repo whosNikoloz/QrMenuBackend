@@ -31,36 +31,46 @@ namespace QrMenuBackend.Controllers
             return Ok(createdOption);
         }
 
-        //[HttpGet("{OptionId}")]
-        //public async Task<IActionResult> GetOptionById(int OptionId)
-        //{
-        //    var option = await _optionService.GetOptionByIdAsync(OptionId);
-        //    if (option == null)
-        //    {
-        //        return NotFound();
-        //    }
-        //    return Ok(option);
-        //}
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetOptionById(int id)
+        {
+            var option = await _optionService.GetOptionByIdAsync(id);
 
-        //[HttpGet]
-        //public async Task<IActionResult> GetAllOptions()
-        //{
-        //    var options = await _optionService.GetAllOptionsAsync();
-        //    return Ok(options);
-        //}
+            if (option == null)
+            {
+                return NotFound(); // Return status code 404 (Not Found)
+            }
 
-        //[HttpDelete("{OptionId}")]
-        //public async Task<IActionResult> DeleteOption(int OptionId)
-        //{
-        //    try
-        //    {
-        //        await _optionService.DeleteOptionAsync(OptionId);
-        //        return Ok(); // Return 200 OK on successful deletion
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return StatusCode(500, ex.Message); // Return 500 Internal Server Error on exception
-        //    }
-        //}
+            return Ok(option); // Return status code 200 (OK) with product details
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetAllOptions()
+        {
+            var options = await _optionService.GetAllOptionsAsync();
+            return Ok(options); // Return status code 200 (OK) with product list
+        }
+        [HttpPut("{OptionId}")]
+        public async Task<IActionResult> UpdateOption(int OptionId, [FromBody] OptionCreateDto optionCreateDto)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState); // Return status code 400 (Bad Request) with validation errors
+            }
+
+            var updatedOption = await _optionService.UpdateOptionAsync(OptionId, optionCreateDto);
+            if (updatedOption == null)
+            {
+                return BadRequest();
+            }
+            return Ok(updatedOption);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteOption(int id)
+        {
+            await _optionService.DeleteOptionAsync(id);
+            return Ok();
+        }
     }
 }
