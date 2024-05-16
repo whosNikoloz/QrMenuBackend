@@ -17,6 +17,8 @@ builder.Services.AddScoped<IProductGroupService, ProductGroupService>();
 builder.Services.AddScoped<IProductGroupRepository, ProductGroupRepository>();
 builder.Services.AddScoped<IOptionRepository, OptionRepository>();
 builder.Services.AddScoped<IOptionService, OptionService>();
+builder.Services.AddScoped<IOptionsValueRepository, OptionsValueRepository>();
+builder.Services.AddScoped<IOptionValueService, OptionValueService>();
 
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies()); 

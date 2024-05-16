@@ -28,6 +28,12 @@ namespace QrMenuBackend.Profiles
             CreateMap<OptionCreateDto, OptionDto>();
 
             CreateMap<Option, OptionDto>();
+
+            CreateMap<OptionValue, OptionValueDto>();
+            CreateMap<OptionValueDto, OptionValue>();
+
+            CreateMap<OptionValueCreateDto, OptionValue>();
+            CreateMap<OptionValue, OptionValueCreateDto>();
         }
     }
 }

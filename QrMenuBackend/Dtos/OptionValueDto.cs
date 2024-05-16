@@ -1,4 +1,6 @@
 ﻿
+using System.Text.Json.Serialization;
+
 namespace QrMenuBackend.Dtos
 {
     public class OptionValueDto
@@ -9,6 +11,7 @@ namespace QrMenuBackend.Dtos
         public string? Name_Ka { get; set; }
         public decimal Price { get; set; }
         public int Option_Id { get; set; }
+        [JsonIgnore]
         public OptionDto? Option { get; set; }
     }
 }
