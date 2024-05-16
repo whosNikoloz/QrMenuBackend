@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "1PWpgwvUhlkTbXs8RxTCRx9LnGZAlDIgPpAtadDsHEM=",
+  "Source": "QrMenuBackend",
+  "BasePath": "_content/QrMenuBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

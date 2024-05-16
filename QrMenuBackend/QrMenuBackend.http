@@ -1,0 +1,6 @@
+@QrMenuBackend_HostAddress = http://localhost:5105
+
+GET {{QrMenuBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
