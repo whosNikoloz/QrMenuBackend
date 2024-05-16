@@ -40,7 +40,6 @@ namespace QrMenuBackend.Repositories
 
         public async Task DeleteProductGroupAsync(int productgroupId)
         {
-
             var productGroup = await _dbContext.ProductGroups.FindAsync(productgroupId);
             if (productGroup == null)
             {

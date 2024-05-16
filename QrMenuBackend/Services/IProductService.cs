@@ -6,9 +6,10 @@ namespace QrMenuBackend.Services
     public interface IProductService
     {
         Task<ProductDto> GetProductByIdAsync(int productId);
-        Task<IEnumerable<ProductDto>> GetAllProductsAsync();
+        Task<List<ProductDto>> GetAllProductsAsync();
         Task<ProductDto> CreateProductAsync(ProductCreateDto productcreateDto);
-        Task<ProductDto> UpdateProductAsync(int productId, ProductDto productDto);
+        Task<ProductDto> UpdateProductAsync(int productId, ProductCreateDto productDto);
         Task DeleteProductAsync(int productId);
+        Task<ProductDto> GetProductsAndOptionsById(int productId);
     }
 }

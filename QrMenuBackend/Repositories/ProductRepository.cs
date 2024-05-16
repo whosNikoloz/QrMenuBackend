@@ -32,25 +32,62 @@ namespace QrMenuBackend.Repositories
 
         public Task DeleteProductAsync(int productId)
         {
-            throw new NotImplementedException();
+            var product = _dbContext.Products.Find(productId);
+            if (product == null)
+            {
+                throw new KeyNotFoundException("Product not found");
+            }
+            _dbContext.Products.Remove(product);
+            return _dbContext.SaveChangesAsync();
         }
 
-        public Task<IEnumerable<ProductDto>> GetAllProductsAsync()
+        public Task<List<ProductDto>> GetAllProductsAsync()
         {
-
-            throw new NotImplementedException();
+            var products = _dbContext.Products.Select(product => new ProductDto
+            {
+                Id = product.Id,
+                Name_En = product.Name_En,
+                Name_Ka = product.Name_Ka,
+                Description_En = product.Description_En,
+                Description_Ka = product.Description_Ka,
+                Price = product.Price,
+                ImageUrl = product.ImageUrl,
+                Group_Id = product.Group_Id
+            });
+            
+            return products.ToListAsync();
         }
 
         public Task<ProductDto> GetProductByIdAsync(int productId)
         {
-            throw new NotImplementedException();
+            var product = _dbContext.Products.Find(productId);
+
+            if(product == null)
+            {
+                throw new KeyNotFoundException("Product not found");
+            }
+            var productDto = _mapper.Map<Product, ProductDto>(product);
+            return Task.FromResult(productDto);
         }
 
-
-        public async Task<ProductDto> UpdateProductAsync(int productId, ProductDto productDto)
+        public Task<ProductDto> GetProductsAndOptionsById(int productId)
         {
+            var product = _dbContext.Products.Include(p => p.Options).FirstOrDefault(p => p.Id == productId);
             throw new NotImplementedException();
         }
-       
+
+        public async Task<ProductDto> UpdateProductAsync(int productId, ProductCreateDto productcreateDto)
+        {
+            var product = _dbContext.Products.Find(productId);
+            if (product == null)
+            {
+                throw new KeyNotFoundException("Product not found");
+            }
+            product = _mapper.Map<ProductCreateDto, Product>(productcreateDto);
+            await _dbContext.SaveChangesAsync();
+
+            var productDto = _mapper.Map<Product, ProductDto>(product);
+            return productDto;
+        }
     }
 }

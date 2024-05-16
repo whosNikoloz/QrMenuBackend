@@ -15,6 +15,10 @@ builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IProductGroupService, ProductGroupService>();
 builder.Services.AddScoped<IProductGroupRepository, ProductGroupRepository>();
+builder.Services.AddScoped<IOptionRepository, OptionRepository>();
+builder.Services.AddScoped<IOptionService, OptionService>();
+
+
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies()); 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

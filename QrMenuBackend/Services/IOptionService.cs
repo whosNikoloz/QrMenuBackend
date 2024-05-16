@@ -1,6 +1,10 @@
-﻿namespace QrMenuBackend.Services
+﻿using QrMenuBackend.Dtos.Create;
+using QrMenuBackend.Dtos;
+
+namespace QrMenuBackend.Services
 {
-    public class IOptionService
+    public interface IOptionService
     {
+        Task<OptionDto> CreateOptionAsync(OptionCreateDto optioncreateDto);
     }
 }

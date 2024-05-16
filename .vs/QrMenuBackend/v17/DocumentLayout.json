@@ -3,12 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|c:\\users\\nikoloz\\source\\repos\\qrmenubackend\\qrmenubackend\\migrations\\20240516105138_gorup column update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|solutionrelative:qrmenubackend\\migrations\\20240516105138_gorup column update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|c:\\users\\nikoloz\\source\\repos\\qrmenubackend\\qrmenubackend\\controllers\\optioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|solutionrelative:qrmenubackend\\controllers\\optioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|c:\\users\\nikoloz\\source\\repos\\qrmenubackend\\qrmenubackend\\repositories\\optionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|solutionrelative:qrmenubackend\\repositories\\optionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|c:\\users\\nikoloz\\source\\repos\\qrmenubackend\\qrmenubackend\\profiles\\mainprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|solutionrelative:qrmenubackend\\profiles\\mainprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|c:\\users\\nikoloz\\source\\repos\\qrmenubackend\\qrmenubackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|solutionrelative:qrmenubackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|c:\\users\\nikoloz\\source\\repos\\qrmenubackend\\qrmenubackend\\dtos\\create\\optioncreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|solutionrelative:qrmenubackend\\dtos\\create\\optioncreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|c:\\users\\nikoloz\\source\\repos\\qrmenubackend\\qrmenubackend\\repositories\\ioptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|solutionrelative:qrmenubackend\\repositories\\ioptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|c:\\users\\nikoloz\\source\\repos\\qrmenubackend\\qrmenubackend\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|solutionrelative:qrmenubackend\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|c:\\users\\nikoloz\\source\\repos\\qrmenubackend\\qrmenubackend\\services\\optionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|solutionrelative:qrmenubackend\\services\\optionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|c:\\users\\nikoloz\\source\\repos\\qrmenubackend\\qrmenubackend\\services\\ioptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|solutionrelative:qrmenubackend\\services\\ioptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|c:\\users\\nikoloz\\source\\repos\\qrmenubackend\\qrmenubackend\\services\\iproductgroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|solutionrelative:qrmenubackend\\services\\iproductgroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|c:\\users\\nikoloz\\source\\repos\\qrmenubackend\\qrmenubackend\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|solutionrelative:qrmenubackend\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|c:\\users\\nikoloz\\source\\repos\\qrmenubackend\\qrmenubackend\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|solutionrelative:qrmenubackend\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|c:\\users\\nikoloz\\source\\repos\\qrmenubackend\\qrmenubackend\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|solutionrelative:qrmenubackend\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|c:\\users\\nikoloz\\source\\repos\\qrmenubackend\\qrmenubackend\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|solutionrelative:qrmenubackend\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|c:\\users\\nikoloz\\source\\repos\\qrmenubackend\\qrmenubackend\\repositories\\productgrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|solutionrelative:qrmenubackend\\repositories\\productgrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|c:\\users\\nikoloz\\source\\repos\\qrmenubackend\\qrmenubackend\\services\\productgroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|solutionrelative:qrmenubackend\\services\\productgroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|c:\\users\\nikoloz\\source\\repos\\qrmenubackend\\qrmenubackend\\controllers\\productgroupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|solutionrelative:qrmenubackend\\controllers\\productgroupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|c:\\users\\nikoloz\\source\\repos\\qrmenubackend\\qrmenubackend\\migrations\\20240516105138_gorup column update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|solutionrelative:qrmenubackend\\migrations\\20240516105138_gorup column update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|c:\\users\\nikoloz\\source\\repos\\qrmenubackend\\qrmenubackend\\dtos\\productgroupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,14 +87,6 @@
       "RelativeMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|solutionrelative:qrmenubackend\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|c:\\users\\nikoloz\\source\\repos\\qrmenubackend\\qrmenubackend\\controllers\\productgroupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|solutionrelative:qrmenubackend\\controllers\\productgroupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|c:\\users\\nikoloz\\source\\repos\\qrmenubackend\\qrmenubackend\\services\\productgroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|solutionrelative:qrmenubackend\\services\\productgroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|c:\\users\\nikoloz\\source\\repos\\qrmenubackend\\qrmenubackend\\repositories\\iproductgrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|solutionrelative:qrmenubackend\\repositories\\iproductgrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,68 +95,16 @@
       "RelativeMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|solutionrelative:qrmenubackend\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|c:\\users\\nikoloz\\source\\repos\\qrmenubackend\\qrmenubackend\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|solutionrelative:qrmenubackend\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|c:\\users\\nikoloz\\source\\repos\\qrmenubackend\\qrmenubackend\\services\\iproductgroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|solutionrelative:qrmenubackend\\services\\iproductgroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|c:\\users\\nikoloz\\source\\repos\\qrmenubackend\\qrmenubackend\\profiles\\mainprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|solutionrelative:qrmenubackend\\profiles\\mainprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|c:\\users\\nikoloz\\source\\repos\\qrmenubackend\\qrmenubackend\\repositories\\optionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|solutionrelative:qrmenubackend\\repositories\\optionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|c:\\users\\nikoloz\\source\\repos\\qrmenubackend\\qrmenubackend\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|solutionrelative:qrmenubackend\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|c:\\users\\nikoloz\\source\\repos\\qrmenubackend\\qrmenubackend\\repositories\\ioptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|solutionrelative:qrmenubackend\\repositories\\ioptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|c:\\users\\nikoloz\\source\\repos\\qrmenubackend\\qrmenubackend\\dtos\\create\\productcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|solutionrelative:qrmenubackend\\dtos\\create\\productcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|c:\\users\\nikoloz\\source\\repos\\qrmenubackend\\qrmenubackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|solutionrelative:qrmenubackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|c:\\users\\nikoloz\\source\\repos\\qrmenubackend\\qrmenubackend\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|solutionrelative:qrmenubackend\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|c:\\users\\nikoloz\\source\\repos\\qrmenubackend\\qrmenubackend\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|solutionrelative:qrmenubackend\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|c:\\users\\nikoloz\\source\\repos\\qrmenubackend\\qrmenubackend\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|solutionrelative:qrmenubackend\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|c:\\users\\nikoloz\\source\\repos\\qrmenubackend\\qrmenubackend\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|solutionrelative:qrmenubackend\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|c:\\users\\nikoloz\\source\\repos\\qrmenubackend\\qrmenubackend\\services\\ioptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|solutionrelative:qrmenubackend\\services\\ioptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|c:\\users\\nikoloz\\source\\repos\\qrmenubackend\\qrmenubackend\\controllers\\optioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|solutionrelative:qrmenubackend\\controllers\\optioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|c:\\users\\nikoloz\\source\\repos\\qrmenubackend\\qrmenubackend\\dtos\\create\\productgroupcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|solutionrelative:qrmenubackend\\dtos\\create\\productgroupcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|c:\\users\\nikoloz\\source\\repos\\qrmenubackend\\qrmenubackend\\dtos\\create\\optioncreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|solutionrelative:qrmenubackend\\dtos\\create\\optioncreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{184762E8-12C2-46C9-B923-7FD821C4C701}|QrMenuBackend\\QrMenuBackend.csproj|c:\\users\\nikoloz\\source\\repos\\qrmenubackend\\qrmenubackend\\dtos\\create\\optionvaluecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -131,155 +135,168 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20240516105138_gorup column update.cs",
-              "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Migrations\\20240516105138_gorup column update.cs",
-              "RelativeDocumentMoniker": "QrMenuBackend\\Migrations\\20240516105138_gorup column update.cs",
-              "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Migrations\\20240516105138_gorup column update.cs",
-              "RelativeToolTip": "QrMenuBackend\\Migrations\\20240516105138_gorup column update.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA1wBkAAAAJAAAA",
+              "Title": "OptionController.cs",
+              "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Controllers\\OptionController.cs",
+              "RelativeDocumentMoniker": "QrMenuBackend\\Controllers\\OptionController.cs",
+              "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Controllers\\OptionController.cs",
+              "RelativeToolTip": "QrMenuBackend\\Controllers\\OptionController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwB8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T10:51:45.34Z",
+              "WhenOpened": "2024-05-16T08:23:41.767Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductGroupController.cs",
-              "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Controllers\\ProductGroupController.cs",
-              "RelativeDocumentMoniker": "QrMenuBackend\\Controllers\\ProductGroupController.cs",
-              "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Controllers\\ProductGroupController.cs",
-              "RelativeToolTip": "QrMenuBackend\\Controllers\\ProductGroupController.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAlwDQAAAAAAAAA",
+              "DocumentIndex": 7,
+              "Title": "OptionService.cs",
+              "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Services\\OptionService.cs",
+              "RelativeDocumentMoniker": "QrMenuBackend\\Services\\OptionService.cs",
+              "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Services\\OptionService.cs",
+              "RelativeToolTip": "QrMenuBackend\\Services\\OptionService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T07:27:41.205Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductGroup.cs",
-              "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Models\\ProductGroup.cs",
-              "RelativeDocumentMoniker": "QrMenuBackend\\Models\\ProductGroup.cs",
-              "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Models\\ProductGroup.cs",
-              "RelativeToolTip": "QrMenuBackend\\Models\\ProductGroup.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T07:05:29.959Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductGroupDto.cs",
-              "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Dtos\\ProductGroupDto.cs",
-              "RelativeDocumentMoniker": "QrMenuBackend\\Dtos\\ProductGroupDto.cs",
-              "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Dtos\\ProductGroupDto.cs",
-              "RelativeToolTip": "QrMenuBackend\\Dtos\\ProductGroupDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T07:06:02.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductGroupRepository.cs",
-              "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Repositories\\ProductGroupRepository.cs",
-              "RelativeDocumentMoniker": "QrMenuBackend\\Repositories\\ProductGroupRepository.cs",
-              "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Repositories\\ProductGroupRepository.cs",
-              "RelativeToolTip": "QrMenuBackend\\Repositories\\ProductGroupRepository.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAlwDUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T07:14:04.89Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "QrMenuBackend\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Models\\Product.cs",
-              "RelativeToolTip": "QrMenuBackend\\Models\\Product.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAYwBIAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T07:03:16.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProductGroupService.cs",
-              "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Services\\ProductGroupService.cs",
-              "RelativeDocumentMoniker": "QrMenuBackend\\Services\\ProductGroupService.cs",
-              "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Services\\ProductGroupService.cs",
-              "RelativeToolTip": "QrMenuBackend\\Services\\ProductGroupService.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAkwB0AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T07:23:31.594Z",
+              "WhenOpened": "2024-05-16T11:31:38.381Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "ProductDto.cs",
-              "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Dtos\\ProductDto.cs",
-              "RelativeDocumentMoniker": "QrMenuBackend\\Dtos\\ProductDto.cs",
-              "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Dtos\\ProductDto.cs",
-              "RelativeToolTip": "QrMenuBackend\\Dtos\\ProductDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBYAAAAgAAAA",
+              "Title": "IOptionService.cs",
+              "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Services\\IOptionService.cs",
+              "RelativeDocumentMoniker": "QrMenuBackend\\Services\\IOptionService.cs",
+              "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Services\\IOptionService.cs",
+              "RelativeToolTip": "QrMenuBackend\\Services\\IOptionService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T07:03:05.808Z",
+              "WhenOpened": "2024-05-16T08:31:05.09Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "MainProfile.cs",
               "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Profiles\\MainProfile.cs",
               "RelativeDocumentMoniker": "QrMenuBackend\\Profiles\\MainProfile.cs",
               "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Profiles\\MainProfile.cs",
               "RelativeToolTip": "QrMenuBackend\\Profiles\\MainProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-16T09:12:25.945Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IProductGroupRepository.cs",
-              "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Repositories\\IProductGroupRepository.cs",
-              "RelativeDocumentMoniker": "QrMenuBackend\\Repositories\\IProductGroupRepository.cs",
-              "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Repositories\\IProductGroupRepository.cs",
-              "RelativeToolTip": "QrMenuBackend\\Repositories\\IProductGroupRepository.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAIwA8AAAABAAAA",
+              "DocumentIndex": 6,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Repositories\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "QrMenuBackend\\Repositories\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Repositories\\IProductRepository.cs",
+              "RelativeToolTip": "QrMenuBackend\\Repositories\\IProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T07:11:39.663Z",
+              "WhenOpened": "2024-05-16T07:50:34.102Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
+              "Title": "OptionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Repositories\\OptionRepository.cs",
+              "RelativeDocumentMoniker": "QrMenuBackend\\Repositories\\OptionRepository.cs",
+              "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Repositories\\OptionRepository.cs",
+              "RelativeToolTip": "QrMenuBackend\\Repositories\\OptionRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T08:12:59.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IOptionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Repositories\\IOptionRepository.cs",
+              "RelativeDocumentMoniker": "QrMenuBackend\\Repositories\\IOptionRepository.cs",
+              "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Repositories\\IOptionRepository.cs",
+              "RelativeToolTip": "QrMenuBackend\\Repositories\\IOptionRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T10:01:25.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Program.cs",
+              "RelativeDocumentMoniker": "QrMenuBackend\\Program.cs",
+              "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Program.cs",
+              "RelativeToolTip": "QrMenuBackend\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T07:28:04.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "IProductGroupService.cs",
               "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Services\\IProductGroupService.cs",
               "RelativeDocumentMoniker": "QrMenuBackend\\Services\\IProductGroupService.cs",
               "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Services\\IProductGroupService.cs",
               "RelativeToolTip": "QrMenuBackend\\Services\\IProductGroupService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA7AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-16T07:26:36.498Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Services\\IProductService.cs",
+              "RelativeDocumentMoniker": "QrMenuBackend\\Services\\IProductService.cs",
+              "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Services\\IProductService.cs",
+              "RelativeToolTip": "QrMenuBackend\\Services\\IProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T07:35:21.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OptionCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Dtos\\Create\\OptionCreateDto.cs",
+              "RelativeDocumentMoniker": "QrMenuBackend\\Dtos\\Create\\OptionCreateDto.cs",
+              "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Dtos\\Create\\OptionCreateDto.cs",
+              "RelativeToolTip": "QrMenuBackend\\Dtos\\Create\\OptionCreateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T07:10:28.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "QrMenuBackend\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Services\\ProductService.cs",
+              "RelativeToolTip": "QrMenuBackend\\Services\\ProductService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T07:37:03.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Repositories\\ProductRepository.cs",
               "RelativeDocumentMoniker": "QrMenuBackend\\Repositories\\ProductRepository.cs",
               "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Repositories\\ProductRepository.cs",
               "RelativeToolTip": "QrMenuBackend\\Repositories\\ProductRepository.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAlwBQAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-16T07:35:05.085Z",
               "EditorCaption": ""
@@ -287,45 +304,131 @@
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Repositories\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "QrMenuBackend\\Repositories\\IProductRepository.cs",
-              "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Repositories\\IProductRepository.cs",
-              "RelativeToolTip": "QrMenuBackend\\Repositories\\IProductRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAvAAAA",
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "QrMenuBackend\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "QrMenuBackend\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAcwEIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T07:50:34.102Z",
+              "WhenOpened": "2024-05-16T07:28:04.05Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "IOptionRepository.cs",
-              "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Repositories\\IOptionRepository.cs",
-              "RelativeDocumentMoniker": "QrMenuBackend\\Repositories\\IOptionRepository.cs",
-              "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Repositories\\IOptionRepository.cs",
-              "RelativeToolTip": "QrMenuBackend\\Repositories\\IOptionRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "ProductGroupRepository.cs",
+              "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Repositories\\ProductGroupRepository.cs",
+              "RelativeDocumentMoniker": "QrMenuBackend\\Repositories\\ProductGroupRepository.cs",
+              "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Repositories\\ProductGroupRepository.cs",
+              "RelativeToolTip": "QrMenuBackend\\Repositories\\ProductGroupRepository.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowCoAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T10:01:25.67Z",
+              "WhenOpened": "2024-05-16T07:14:04.89Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "OptionRepository.cs",
-              "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Repositories\\OptionRepository.cs",
-              "RelativeDocumentMoniker": "QrMenuBackend\\Repositories\\OptionRepository.cs",
-              "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Repositories\\OptionRepository.cs",
-              "RelativeToolTip": "QrMenuBackend\\Repositories\\OptionRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 22,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Dtos\\ProductDto.cs",
+              "RelativeDocumentMoniker": "QrMenuBackend\\Dtos\\ProductDto.cs",
+              "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Dtos\\ProductDto.cs",
+              "RelativeToolTip": "QrMenuBackend\\Dtos\\ProductDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBYAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T08:12:59.72Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-16T07:03:05.808Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "ProductGroupService.cs",
+              "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Services\\ProductGroupService.cs",
+              "RelativeDocumentMoniker": "QrMenuBackend\\Services\\ProductGroupService.cs",
+              "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Services\\ProductGroupService.cs",
+              "RelativeToolTip": "QrMenuBackend\\Services\\ProductGroupService.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAApwCsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T07:23:31.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "QrMenuBackend\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Models\\Product.cs",
+              "RelativeToolTip": "QrMenuBackend\\Models\\Product.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAYwBIAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T07:03:16.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductGroupController.cs",
+              "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Controllers\\ProductGroupController.cs",
+              "RelativeDocumentMoniker": "QrMenuBackend\\Controllers\\ProductGroupController.cs",
+              "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Controllers\\ProductGroupController.cs",
+              "RelativeToolTip": "QrMenuBackend\\Controllers\\ProductGroupController.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAApwFkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T07:27:41.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20240516105138_gorup column update.cs",
+              "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Migrations\\20240516105138_gorup column update.cs",
+              "RelativeDocumentMoniker": "QrMenuBackend\\Migrations\\20240516105138_gorup column update.cs",
+              "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Migrations\\20240516105138_gorup column update.cs",
+              "RelativeToolTip": "QrMenuBackend\\Migrations\\20240516105138_gorup column update.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T10:51:45.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProductGroupDto.cs",
+              "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Dtos\\ProductGroupDto.cs",
+              "RelativeDocumentMoniker": "QrMenuBackend\\Dtos\\ProductGroupDto.cs",
+              "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Dtos\\ProductGroupDto.cs",
+              "RelativeToolTip": "QrMenuBackend\\Dtos\\ProductGroupDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T07:06:02.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductGroup.cs",
+              "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Models\\ProductGroup.cs",
+              "RelativeDocumentMoniker": "QrMenuBackend\\Models\\ProductGroup.cs",
+              "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Models\\ProductGroup.cs",
+              "RelativeToolTip": "QrMenuBackend\\Models\\ProductGroup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T07:05:29.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IProductGroupRepository.cs",
+              "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Repositories\\IProductGroupRepository.cs",
+              "RelativeDocumentMoniker": "QrMenuBackend\\Repositories\\IProductGroupRepository.cs",
+              "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Repositories\\IProductGroupRepository.cs",
+              "RelativeToolTip": "QrMenuBackend\\Repositories\\IProductGroupRepository.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAIwA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T07:11:39.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "ProductCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Dtos\\Create\\ProductCreateDto.cs",
               "RelativeDocumentMoniker": "QrMenuBackend\\Dtos\\Create\\ProductCreateDto.cs",
@@ -333,64 +436,11 @@
               "RelativeToolTip": "QrMenuBackend\\Dtos\\Create\\ProductCreateDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T07:04:05.569Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-16T07:04:05.569Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Program.cs",
-              "RelativeDocumentMoniker": "QrMenuBackend\\Program.cs",
-              "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Program.cs",
-              "RelativeToolTip": "QrMenuBackend\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T07:28:04.914Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "QrMenuBackend\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "QrMenuBackend\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAA1wFsAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T07:28:04.05Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "QrMenuBackend\\Services\\ProductService.cs",
-              "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Services\\ProductService.cs",
-              "RelativeToolTip": "QrMenuBackend\\Services\\ProductService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAewBIAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T07:37:03.421Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Services\\IProductService.cs",
-              "RelativeDocumentMoniker": "QrMenuBackend\\Services\\IProductService.cs",
-              "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Services\\IProductService.cs",
-              "RelativeToolTip": "QrMenuBackend\\Services\\IProductService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T07:35:21.248Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "QrMenuBackend\\Data\\AppDbContext.cs",
@@ -398,38 +448,11 @@
               "RelativeToolTip": "QrMenuBackend\\Data\\AppDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T07:17:19.957Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-16T07:17:19.957Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IOptionService.cs",
-              "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Services\\IOptionService.cs",
-              "RelativeDocumentMoniker": "QrMenuBackend\\Services\\IOptionService.cs",
-              "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Services\\IOptionService.cs",
-              "RelativeToolTip": "QrMenuBackend\\Services\\IOptionService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T08:31:05.09Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "OptionController.cs",
-              "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Controllers\\OptionController.cs",
-              "RelativeDocumentMoniker": "QrMenuBackend\\Controllers\\OptionController.cs",
-              "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Controllers\\OptionController.cs",
-              "RelativeToolTip": "QrMenuBackend\\Controllers\\OptionController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T08:23:41.767Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "ProductGroupCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Dtos\\Create\\ProductGroupCreateDto.cs",
               "RelativeDocumentMoniker": "QrMenuBackend\\Dtos\\Create\\ProductGroupCreateDto.cs",
@@ -437,12 +460,11 @@
               "RelativeToolTip": "QrMenuBackend\\Dtos\\Create\\ProductGroupCreateDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T07:06:18.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-16T07:06:18.53Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "OptionValueCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Dtos\\Create\\OptionValueCreateDto.cs",
               "RelativeDocumentMoniker": "QrMenuBackend\\Dtos\\Create\\OptionValueCreateDto.cs",
@@ -450,25 +472,11 @@
               "RelativeToolTip": "QrMenuBackend\\Dtos\\Create\\OptionValueCreateDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T07:10:31.76Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-16T07:10:31.76Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "OptionCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Dtos\\Create\\OptionCreateDto.cs",
-              "RelativeDocumentMoniker": "QrMenuBackend\\Dtos\\Create\\OptionCreateDto.cs",
-              "ToolTip": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Dtos\\Create\\OptionCreateDto.cs",
-              "RelativeToolTip": "QrMenuBackend\\Dtos\\Create\\OptionCreateDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T07:10:28.99Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Option.cs",
               "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Models\\Option.cs",
               "RelativeDocumentMoniker": "QrMenuBackend\\Models\\Option.cs",
@@ -476,12 +484,11 @@
               "RelativeToolTip": "QrMenuBackend\\Models\\Option.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T07:09:10.27Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-16T07:09:10.27Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "OptionDto.cs",
               "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Dtos\\OptionDto.cs",
               "RelativeDocumentMoniker": "QrMenuBackend\\Dtos\\OptionDto.cs",
@@ -489,12 +496,11 @@
               "RelativeToolTip": "QrMenuBackend\\Dtos\\OptionDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T07:08:55.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-16T07:08:55.461Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "OptionValueDto.cs",
               "DocumentMoniker": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\Dtos\\OptionValueDto.cs",
               "RelativeDocumentMoniker": "QrMenuBackend\\Dtos\\OptionValueDto.cs",
@@ -502,8 +508,7 @@
               "RelativeToolTip": "QrMenuBackend\\Dtos\\OptionValueDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T07:07:01.356Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-16T07:07:01.356Z"
             }
           ]
         }

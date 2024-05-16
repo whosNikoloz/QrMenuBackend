@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QrMenuBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3485a66ecbc4f7ca19a578711998fe5b5f1bf04a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+10ee4c312a5c6efcce11c5388fc2e02cd66163a4")]
 [assembly: System.Reflection.AssemblyProductAttribute("QrMenuBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QrMenuBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

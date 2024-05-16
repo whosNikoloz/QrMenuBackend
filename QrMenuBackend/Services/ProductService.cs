@@ -23,7 +23,7 @@ namespace QrMenuBackend.Services
             await _productRepository.DeleteProductAsync(productId);
         }
 
-        public async Task<IEnumerable<ProductDto>> GetAllProductsAsync()
+        public async Task<List<ProductDto>> GetAllProductsAsync()
         {
             return await _productRepository.GetAllProductsAsync();
         }
@@ -33,7 +33,12 @@ namespace QrMenuBackend.Services
             return await _productRepository.GetProductByIdAsync(productId);
         }
 
-        public async Task<ProductDto> UpdateProductAsync(int productId, ProductDto productDto)
+        public async Task<ProductDto> GetProductsAndOptionsById(int productId)
+        {
+            return await _productRepository.GetProductsAndOptionsById(productId);
+        }
+
+        public async Task<ProductDto> UpdateProductAsync(int productId, ProductCreateDto productDto)
         {
             return await _productRepository.UpdateProductAsync(productId, productDto);
         }
