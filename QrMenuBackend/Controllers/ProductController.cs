@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using QrMenuBackend.Dtos;
+using QrMenuBackend.Dtos.Create;
 using QrMenuBackend.Services;
 
 namespace QrMenuBackend.Controllers
@@ -40,15 +41,19 @@ namespace QrMenuBackend.Controllers
 
         // POST: api/Products
         [HttpPost]
-        public async Task<IActionResult> CreateProduct([FromBody] ProductDto productDto)
+        public async Task<IActionResult> CreateProduct([FromBody] ProductCreateDto productcreateDto)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState); // Return status code 400 (Bad Request) with validation errors
             }
 
-            var createdProduct = await _productService.CreateProductAsync(productDto);
-            return CreatedAtRoute("GetProductById", new { id = createdProduct.Id }, createdProduct); // Return status code 201 (Created) with location header
+            var createdProduct = await _productService.CreateProductAsync(productcreateDto);
+            if(createdProduct != null)
+            {
+                return CreatedAtAction(nameof(GetProductById), new { id = createdProduct.Id }, createdProduct); 
+            }
+            return BadRequest(); // Return status code 400 (Bad Request) if product creation failed
         }
 
         // PUT: api/Products/5

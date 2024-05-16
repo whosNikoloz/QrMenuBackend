@@ -1,4 +1,5 @@
 ﻿using QrMenuBackend.Dtos;
+using QrMenuBackend.Dtos.Create;
 using QrMenuBackend.Repositories;
 
 namespace QrMenuBackend.Services
@@ -12,9 +13,9 @@ namespace QrMenuBackend.Services
             _productRepository = productRepository;
         }
 
-        public async Task<ProductDto> CreateProductAsync(ProductDto productDto)
+        public async Task<ProductDto> CreateProductAsync(ProductCreateDto productcreateDto)
         {
-            return await _productRepository.CreateProductAsync(productDto);
+            return await _productRepository.CreateProductAsync(productcreateDto);
         }
 
         public async Task DeleteProductAsync(int productId)

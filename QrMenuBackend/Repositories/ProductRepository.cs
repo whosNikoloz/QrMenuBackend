@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using QrMenuBackend.Data;
 using QrMenuBackend.Dtos;
+using QrMenuBackend.Dtos.Create;
 using QrMenuBackend.Models;
 
 namespace QrMenuBackend.Repositories
@@ -16,9 +17,37 @@ namespace QrMenuBackend.Repositories
             _dbContext = dbContext;
         }
 
-        public async Task<ProductDto> CreateProductAsync(ProductDto productDto)
+        public async Task<ProductDto> CreateProductAsync(ProductCreateDto productcreateDto)
         {
-            throw new NotImplementedException();
+            var product = new Product
+            {
+                Name_En = productcreateDto.Name_En,
+                Name_Ka = productcreateDto.Name_Ka,
+                Description_En = productcreateDto.Description_En,
+                Description_Ka = productcreateDto.Description_Ka,
+                ImageUrl = productcreateDto.ImageUrl,
+                Discount = productcreateDto.Discount,
+                Price = productcreateDto.Price,
+                Group_Id = productcreateDto.Group_Id
+            };
+
+            _dbContext.Products.Add(product);
+            await _dbContext.SaveChangesAsync();
+
+            ProductDto productDto = new ProductDto
+            {
+                Id = product.Id,
+                Name_En = product.Name_En,
+                Name_Ka = product.Name_Ka,
+                Description_En = product.Description_En,
+                Description_Ka = product.Description_Ka,
+                ImageUrl = product.ImageUrl,
+                Discount = product.Discount,
+                Price = product.Price,
+                Group_Id = product.Group_Id
+            };
+
+            return productDto;
         }
 
         public Task DeleteProductAsync(int productId)
