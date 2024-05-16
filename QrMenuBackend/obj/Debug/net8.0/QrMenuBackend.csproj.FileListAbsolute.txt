@@ -137,3 +137,4 @@ C:\Users\NIKOLOZ\source\repos\QrMenuBackend\QrMenuBackend\obj\Debug\net8.0\QrMen
 C:\Users\NIKOLOZ\source\repos\QrMenuBackend\QrMenuBackend\obj\Debug\net8.0\ref\QrMenuBackend.dll
 C:\Users\NIKOLOZ\source\repos\QrMenuBackend\QrMenuBackend\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\NIKOLOZ\source\repos\QrMenuBackend\QrMenuBackend\obj\Debug\net8.0\QrMenuBackend.sourcelink.json
+C:\Users\NIKOLOZ\source\repos\QrMenuBackend\QrMenuBackend\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

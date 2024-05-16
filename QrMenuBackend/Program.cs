@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using QrMenuBackend.Data;
+using QrMenuBackend.Profiles;
 using QrMenuBackend.Repositories;
 using QrMenuBackend.Services;
 
@@ -14,6 +15,7 @@ builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IProductGroupService, ProductGroupService>();
 builder.Services.AddScoped<IProductGroupRepository, ProductGroupRepository>();
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies()); 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

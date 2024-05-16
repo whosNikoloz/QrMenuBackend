@@ -83,5 +83,12 @@ namespace QrMenuBackend.Controllers
                 return StatusCode(500, ex.Message);
             }
         }
+
+        [HttpGet("all-with-products")]
+        public async Task<ActionResult<List<ProductGroupDto>>> GetAllWithProducts()
+        {
+            var productGroupsDto = await _productGroupService.GetAllWithProductsAsync();
+            return Ok(productGroupsDto);
+        }
     }
 }

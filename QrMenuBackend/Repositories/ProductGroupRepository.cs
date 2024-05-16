@@ -1,4 +1,6 @@
-﻿using QrMenuBackend.Data;
+﻿using AutoMapper;
+using Microsoft.EntityFrameworkCore;
+using QrMenuBackend.Data;
 using QrMenuBackend.Dtos;
 using QrMenuBackend.Dtos.Create;
 using QrMenuBackend.Models;
@@ -8,10 +10,12 @@ namespace QrMenuBackend.Repositories
     public class ProductGroupRepository : IProductGroupRepository
     {
         private readonly AppDbContext _dbContext;
+        private readonly IMapper _mapper;
 
-        public ProductGroupRepository(AppDbContext dbContext)
+        public ProductGroupRepository(AppDbContext dbContext, IMapper mapper)
         {
             _dbContext = dbContext;
+            _mapper = mapper;
         }
         public async Task<ProductGroupDto> CreateProductGroupAsync(ProductGroupCreateDto productGroupCreateDto)
         {
@@ -52,24 +56,40 @@ namespace QrMenuBackend.Repositories
             {
                 Id = productGroup.Id,
                 Name_En = productGroup.Name_En,
-                Name_Ka = productGroup.Name_Ka
+                Name_Ka = productGroup.Name_Ka,
+                ImageUrl = productGroup.ImageUrl
             });
 
             return Task.FromResult<IEnumerable<ProductGroupDto>>(productGroups);
         }
 
+        public  Task<List<ProductGroupDto>> GetAllWithProductsAsync()
+        {
+            try
+            {
+                var productGroups = _dbContext.ProductGroups.Include(p => p.Products).ToList();
+
+                var productGroupsDto = _mapper.Map<List<ProductGroup>, List<ProductGroupDto>>(productGroups);
+
+                if(productGroupsDto != null)
+                {
+                    return Task.FromResult(productGroupsDto);
+                }
+                throw new KeyNotFoundException("Product group not found");
+            }
+            catch (Exception ex)
+            {
+                throw new NotImplementedException();
+            }
+        }
+
         public Task<ProductGroupDto> GetProductGroupByIdAsync(int productgroupId)
         {
             var productGroup = _dbContext.ProductGroups.Find(productgroupId);
+
             if (productGroup != null)
             {
-                ProductGroupDto productGroupDto = new ProductGroupDto
-                {
-                    Id = productGroup.Id,
-                    Name_En = productGroup.Name_En,
-                    Name_Ka = productGroup.Name_Ka
-                };
-                return Task.FromResult(productGroupDto);
+                return Task.FromResult(_mapper.Map<ProductGroup, ProductGroupDto>(productGroup));
             }
             throw new NotImplementedException();
         }

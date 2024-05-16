@@ -10,5 +10,6 @@ namespace QrMenuBackend.Services
         Task<IEnumerable<ProductGroupDto>> GetAllGroupsAsync();
         Task<ProductGroupDto> UpdateProductGroupAsync(int productgroupId, ProductGroupCreateDto productgroupDto);
         Task DeleteProductGroupAsync(int productgroupId);
+        Task<List<ProductGroupDto>> GetAllWithProductsAsync();
     }
 }

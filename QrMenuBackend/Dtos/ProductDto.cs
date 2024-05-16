@@ -1,4 +1,6 @@
-﻿namespace QrMenuBackend.Dtos
+﻿using System.Text.Json.Serialization;
+
+namespace QrMenuBackend.Dtos
 {
     public class ProductDto
     {
@@ -15,6 +17,7 @@
         public int Group_Id { get; set; }
 
         // Navigation property
+        [JsonIgnore]
         public ProductGroupDto? ProductGroup { get; set; }
 
         // Collection of options

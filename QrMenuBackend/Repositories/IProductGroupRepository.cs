@@ -1,5 +1,6 @@
 ﻿using QrMenuBackend.Dtos;
 using QrMenuBackend.Dtos.Create;
+using QrMenuBackend.Models;
 
 namespace QrMenuBackend.Repositories
 {
@@ -10,5 +11,6 @@ namespace QrMenuBackend.Repositories
         Task<ProductGroupDto> CreateProductGroupAsync(ProductGroupCreateDto productGroupCreateDto);
         Task<ProductGroupDto> UpdateProductGroupAsync(int productgroupId, ProductGroupCreateDto productgroupDto);
         Task DeleteProductGroupAsync(int productgroupId);
+        Task<List<ProductGroupDto>> GetAllWithProductsAsync();
     }
 }

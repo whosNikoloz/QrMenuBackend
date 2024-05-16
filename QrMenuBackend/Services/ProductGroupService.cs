@@ -1,5 +1,6 @@
 ﻿using QrMenuBackend.Dtos;
 using QrMenuBackend.Dtos.Create;
+using QrMenuBackend.Models;
 using QrMenuBackend.Repositories;
 
 namespace QrMenuBackend.Services
@@ -25,7 +26,7 @@ namespace QrMenuBackend.Services
 
         public async Task<IEnumerable<ProductGroupDto>> GetAllGroupsAsync()
         {
-            return (IEnumerable<ProductGroupDto>)await _productgroupRepository.GetAllGroupAsync();
+            return await _productgroupRepository.GetAllGroupAsync();
         }
 
         public Task<ProductGroupDto> UpdateProductGroupAsync(int productgroupId, ProductGroupCreateDto productgroupDto)
@@ -36,6 +37,12 @@ namespace QrMenuBackend.Services
         public Task DeleteProductGroupAsync(int productgroupId)
         {
             return _productgroupRepository.DeleteProductGroupAsync(productgroupId);
+        }
+
+        public Task<List<ProductGroupDto>> GetAllWithProductsAsync()
+        {
+            var product = _productgroupRepository.GetAllWithProductsAsync();
+            return product;
         }
     }
 }
