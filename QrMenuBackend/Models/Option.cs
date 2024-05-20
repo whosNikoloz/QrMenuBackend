@@ -9,6 +9,7 @@ namespace QrMenuBackend.Models
         public int Id { get; set; }
         public string? Name_En { get; set; }
         public string? Name_Ka { get; set; }
+        public string Type { get; set; } = "Radio";
 
         // Custom foreign key property
         [ForeignKey(nameof(Product))]
