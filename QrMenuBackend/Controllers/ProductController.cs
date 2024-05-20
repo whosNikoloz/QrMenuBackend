@@ -67,7 +67,8 @@ namespace QrMenuBackend.Controllers
 
             try
             {
-                await _productService.UpdateProductAsync(id, productDto);
+                var product = await _productService.UpdateProductAsync(id, productDto);
+                return Ok(product);
             }
             catch (DbUpdateConcurrencyException) // Handle optimistic concurrency conflicts
             {
@@ -80,8 +81,6 @@ namespace QrMenuBackend.Controllers
                     return BadRequest("Concurrency conflict occurred while updating the product.");
                 }
             }
-
-            return NoContent(); // Return status code 204 (No Content) on successful update
         }
 
         // DELETE: api/Products/5

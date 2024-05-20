@@ -120,7 +120,8 @@ namespace QrMenuBackend.Repositories
             {
                 throw new KeyNotFoundException("Product not found");
             }
-            product = _mapper.Map<ProductCreateDto, Product>(productcreateDto);
+            _mapper.Map(productcreateDto, product);
+
             await _dbContext.SaveChangesAsync();
 
             var productDto = _mapper.Map<Product, ProductDto>(product);
