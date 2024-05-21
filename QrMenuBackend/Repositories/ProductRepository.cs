@@ -13,11 +13,13 @@ namespace QrMenuBackend.Repositories
 
         private readonly AppDbContext _dbContext;
         private readonly IMapper _mapper;
+        private readonly IOptionRepository _ioptionRepository;
 
-        public ProductRepository(AppDbContext dbContext, IMapper mapper)
+        public ProductRepository(AppDbContext dbContext, IMapper mapper, IOptionRepository ioptionRepository)
         {
             _dbContext = dbContext;
             _mapper = mapper;
+            _ioptionRepository = ioptionRepository;
         }
 
         public async Task<ProductDto> CreateProductAsync(ProductCreateDto productcreateDto)
@@ -30,15 +32,23 @@ namespace QrMenuBackend.Repositories
             return productDto;
         }
 
-        public Task DeleteProductAsync(int productId)
+        public async Task DeleteProductAsync(int productId)
         {
-            var product = _dbContext.Products.Find(productId);
+            var product = await _dbContext.Products.Include(p => p.Options).FirstOrDefaultAsync(p => p.Id == productId);
             if (product == null)
             {
                 throw new KeyNotFoundException("Product not found");
             }
+
+            if(product.Options?.Count > 0)
+            {
+                foreach(int ids in product.Options.Select(o => o.Id).ToList())
+                {
+                    _ioptionRepository.DeleteOptionAsync(ids);
+                }
+            }
             _dbContext.Products.Remove(product);
-            return _dbContext.SaveChangesAsync();
+            await _dbContext.SaveChangesAsync();
         }
 
         public Task<List<ProductDto>> GetAllProductsAsync()

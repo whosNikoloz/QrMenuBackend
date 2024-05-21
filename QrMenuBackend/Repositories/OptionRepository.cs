@@ -25,17 +25,29 @@ namespace QrMenuBackend.Repositories
             return _mapper.Map<Option, OptionDto>(Option);
         }
 
-        public Task DeleteOptionAsync(int optionId)
+        public async Task DeleteOptionAsync(int optionId)
         {
-            var option = _context.Options.Find(optionId);
+            var option = await _context.Options
+                .Include(o => o.OptionValues)
+                .FirstOrDefaultAsync(o => o.Id == optionId);
+
             if (option == null)
             {
                 throw new KeyNotFoundException("Option not found");
             }
-            _context.Options.Remove(option);
-            return _context.SaveChangesAsync();
-        }
 
+            // Remove the associated option values
+            if (option.OptionValues?.Count > 0)
+            {
+                _context.OptionValues.RemoveRange(option.OptionValues);
+            }
+
+            // Remove the option
+            _context.Options.Remove(option);
+
+            // Save changes asynchronously
+            await _context.SaveChangesAsync();
+        }
         public Task<List<OptionDto>> GetAllOptionsAsync()
         {
             var options = _context.Options.Select(option => new OptionDto

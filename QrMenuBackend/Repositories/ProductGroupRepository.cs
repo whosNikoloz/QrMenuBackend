@@ -11,11 +11,13 @@ namespace QrMenuBackend.Repositories
     {
         private readonly AppDbContext _dbContext;
         private readonly IMapper _mapper;
+        private readonly IProductRepository _productRepository;
 
-        public ProductGroupRepository(AppDbContext dbContext, IMapper mapper)
+        public ProductGroupRepository(AppDbContext dbContext, IMapper mapper, IProductRepository productRepository)
         {
             _dbContext = dbContext;
             _mapper = mapper;
+            _productRepository = productRepository;
         }
         public async Task<ProductGroupDto> CreateProductGroupAsync(ProductGroupCreateDto productGroupCreateDto)
         {
@@ -40,10 +42,18 @@ namespace QrMenuBackend.Repositories
 
         public async Task DeleteProductGroupAsync(int productgroupId)
         {
-            var productGroup = await _dbContext.ProductGroups.FindAsync(productgroupId);
+            var productGroup = await  _dbContext.ProductGroups.Include(p => p.Products).FirstOrDefaultAsync(p => p.Id == productgroupId);
             if (productGroup == null)
             {
                 throw new KeyNotFoundException("Product group not found"); // Throw exception for not found
+            }
+
+            if(productGroup.Products?.Count > 0)
+            {
+                foreach (var product in productGroup.Products)
+                {
+                    await _productRepository.DeleteProductAsync(product.Id);
+                }
             }
             _dbContext.ProductGroups.Remove(productGroup);
             await _dbContext.SaveChangesAsync();
