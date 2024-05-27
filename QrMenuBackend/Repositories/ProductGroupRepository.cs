@@ -76,8 +76,11 @@ namespace QrMenuBackend.Repositories
         {
             try
             {
-                var productGroups = _dbContext.ProductGroups.Include(p => p.Products).ToList();
-
+                var productGroups = _dbContext.ProductGroups
+                        .Include(pg => pg.Products)
+                            .ThenInclude(p => p.Options)
+                                .ThenInclude(o => o.OptionValues)
+                        .ToList();
                 var productGroupsDto = _mapper.Map<List<ProductGroup>, List<ProductGroupDto>>(productGroups);
 
                 if(productGroupsDto != null)
