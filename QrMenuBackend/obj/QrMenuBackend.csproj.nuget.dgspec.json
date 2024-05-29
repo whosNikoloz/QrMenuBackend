@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\QrMenuBackend.csproj": {}
+    "C:\\Users\\User\\source\\repos\\QrMenuBackend\\QrMenuBackend\\QrMenuBackend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\QrMenuBackend.csproj": {
+    "C:\\Users\\User\\source\\repos\\QrMenuBackend\\QrMenuBackend\\QrMenuBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\QrMenuBackend.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\QrMenuBackend\\QrMenuBackend\\QrMenuBackend.csproj",
         "projectName": "QrMenuBackend",
-        "projectPath": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\QrMenuBackend.csproj",
-        "packagesPath": "C:\\Users\\NIKOLOZ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NIKOLOZ\\source\\repos\\QrMenuBackend\\QrMenuBackend\\obj\\",
+        "projectPath": "C:\\Users\\User\\source\\repos\\QrMenuBackend\\QrMenuBackend\\QrMenuBackend.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\QrMenuBackend\\QrMenuBackend\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\NIKOLOZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -38,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -73,9 +64,17 @@
               "target": "Package",
               "version": "[8.0.5, )"
             },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -101,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
